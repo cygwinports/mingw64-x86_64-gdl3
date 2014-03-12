@@ -1,0 +1,16 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="gdl"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-gdl3"
+VERSION=3.10.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GNOME docking library for Win64 toolchain"
+DESCRIPTION="The GNOME Docking library provides docking features for GTK+."
+
+DEPEND="gnome-common gtk-doc
+	pkgconfig(gtk+-3.0)
+	pkgconfig(libxml-2.0)"
+
+CYGCONF_ARGS="--disable-introspection --disable-static"
