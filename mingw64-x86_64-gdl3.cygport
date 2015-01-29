@@ -3,7 +3,7 @@ ORIG_PN="gdl"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-gdl3"
-VERSION=3.10.0
+VERSION=3.14.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNOME docking library for Win64 toolchain"
